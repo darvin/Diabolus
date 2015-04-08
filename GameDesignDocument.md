@@ -22,30 +22,29 @@ There is a system of Seasons - once per 4 month, players are able to create a fr
 
 
 
-## Specs
 
-### Engine
+## Engine Specs
 
-#### RPG system
+### RPG system
 
-##### Characters
+#### Characters
 
-###### Stats 
+##### Stats 
 
-###### Player characters
+##### Player characters
 
-####### Leveling rules
+###### Leveling rules
 
-####### Talents
+###### Talents
 
-###### Monsters
+##### Monsters
 
-####### Affixes
-
+###### Affixes
 
 
 
-#### Level Generation
+
+### Level Generation
 
 Procedural generation of levels. 
 
@@ -57,7 +56,7 @@ Procedural generation of levels.
  - Create exit from the level in the most far point of the level.
 
 
-##### Biotop
+#### Biotop
 
 Biotop is a theme of level. It consists of set of assets of the level, kinds of monsters player can encounter on that level, set of handmade level pieces and link onto archetype. Good examples of biotops could be:
  
@@ -65,21 +64,21 @@ Biotop is a theme of level. It consists of set of assets of the level, kinds of 
  * Techno city
  * Dungeons of Hell
 
-##### Archetype
+#### Archetype
 
 Archetype is a algorithm (or parameters for algoritm) of procedural generation of level.
 
  * Plain - non man-made looking plain with island-looking obstacles
  * Dungeon - man-made looking dungeon with straight lines of walls
 
-##### Handmade level pieces
+#### Handmade level pieces
 
 Those are level pieces, handcrafted and associated with biotops. Good examples of such pieces could be:
 
  * DMV room with lines of people, DMV workers, bars
  * Throne room with throne, long red carpet, shields on the walls, guards.
 
-##### Set of assets
+#### Set of assets
 
 Every asset have a parameters:
 
@@ -88,15 +87,15 @@ Every asset have a parameters:
  * Rarity
  * Family (such as "Wall", or "Water" - walls assets should not be in the middle of the water, and vice versa)
 
-#### Exploration/Combat
+### Exploration/Combat
 
 
-### Game
+## Game Spec
 
-#### Functional Spec
-
-
-#### Visual Spec
+### Functional Spec
 
 
-#### Asset catalogue
+### Visual Spec
+
+
+### Asset catalogue
