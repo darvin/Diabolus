@@ -26,10 +26,42 @@ There is a system of Seasons - once per 4 month, players are able to create a fr
 
 ### Engine
 
-#### Functional Spec
+#### Level Generation
+
+Procedural generation of levels. 
+
+ # Randomly choose biotop
+ # According to biotop, select appropriate archetype
+ # Generate level, using assets of biotop, and randomly inserting handmade level pieces of biotop
 
 
-#### Visual Spec
+##### Biotop
+
+Biotop is a theme of level. It consists of set of assets of the level, kinds of monsters player can encounter on that level, set of handmade level pieces and link onto archetype. Good examples of biotops could be:
+ 
+ * Magical forest
+ * Techno city
+ * Dungeons of Hell
+
+##### Archetype
+
+Archetype is a algorithm (or parameters for algoritm) of procedural generation of level.
+
+ * Plain - non man-made looking plain with island-looking obstacles
+ * Dungeon - man-made looking dungeon with straight lines of walls
+
+##### Handmade level pieces
+
+Those are level pieces, handcrafted and associated with biotops. Good examples of such pieces could be:
+
+ * DMV room with lines of people, DMV workers, bars
+ * Throne room with throne, long red carpet, shields on the walls, guards.
+
+##### Set of assets
+
+Assets have a 
+
+#### Exploration/Combat
 
 
 ### Game
