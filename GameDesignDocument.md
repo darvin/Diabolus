@@ -41,7 +41,9 @@ There is a system of Seasons - once per 4 month, players are able to create a fr
 
 ###### Affixes
 
+#### Equipment
 
+#### Combat system
 
 
 ### Level Generation
@@ -58,7 +60,7 @@ Procedural generation of levels.
 
 #### Biotop
 
-Biotop is a theme of level. It consists of set of assets of the level, kinds of monsters player can encounter on that level, set of handmade level pieces and link onto archetype. Good examples of biotops could be:
+Biotop is a theme of level. It consists of set of tiles of the level, kinds of monsters player can encounter on that level, set of handmade level pieces and link onto archetype. Good examples of biotops could be:
  
  * Magical forest
  * Techno city
@@ -78,16 +80,15 @@ Those are level pieces, handcrafted and associated with biotops. Good examples o
  * DMV room with lines of people, DMV workers, bars
  * Throne room with throne, long red carpet, shields on the walls, guards.
 
-#### Set of assets
+#### Set of tiles
 
-Every asset have a parameters:
+Every tile have a parameters:
 
  * Name
  * Obstacle or passable
  * Rarity
- * Family (such as "Wall", or "Water" - walls assets should not be in the middle of the water, and vice versa)
+ * Family (such as "Wall", or "Water" - walls tiles should not be in the middle of the water, and vice versa)
 
-### Exploration/Combat
 
 
 ## Game Spec
