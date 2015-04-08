@@ -26,13 +26,35 @@ There is a system of Seasons - once per 4 month, players are able to create a fr
 
 ### Engine
 
+#### RPG system
+
+##### Characters
+
+###### Stats 
+
+###### Player characters
+
+####### Leveling rules
+
+####### Talents
+
+###### Monsters
+
+####### Affixes
+
+
+
+
 #### Level Generation
 
 Procedural generation of levels. 
 
- # Randomly choose biotop
- # According to biotop, select appropriate archetype
- # Generate level, using assets of biotop, and randomly inserting handmade level pieces of biotop
+ - Randomly choose biotop
+ - According to biotop, select appropriate archetype
+ - Generate level, using assets of biotop, and randomly inserting handmade level pieces of biotop
+ - Populate with monsters of appropriate to current character's level
+ - Place characters onto designited entrance of the level
+ - Create exit from the level in the most far point of the level.
 
 
 ##### Biotop
@@ -59,7 +81,12 @@ Those are level pieces, handcrafted and associated with biotops. Good examples o
 
 ##### Set of assets
 
-Assets have a 
+Every asset have a parameters:
+
+ * Name
+ * Obstacle or passable
+ * Rarity
+ * Family (such as "Wall", or "Water" - walls assets should not be in the middle of the water, and vice versa)
 
 #### Exploration/Combat
 
