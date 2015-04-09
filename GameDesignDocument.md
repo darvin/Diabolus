@@ -2,7 +2,7 @@
 
 *Deabolus* is the online coop rogue-like game with allowed (and encoraged) bot gameplay, heavily inspired by gameplay of *Diablo 3*
 
-## Description
+# Description
 
 Gamer controls a character of one of the available classes. Character has stats and talents. In 2d randomly generated worlds gamer uses a different talents, specific to class to kill monsters. Killing monsters grants expirience and loot. Leveling for expirience points grants new talents. Loot includes wearable equipment which grant stats and some unique talents. Purpose of gameplay is to advance characters and improve equipment. There is no cap on advancement.
 
@@ -23,28 +23,28 @@ There is a system of Seasons - once per 4 month, players are able to create a fr
 
 
 
-## Engine Specs
+# Engine Specs
 
-### RPG system
+## RPG system
 
-#### Characters
+### Characters
 
-##### Stats 
+#### Stats 
 
-##### Player characters
+#### Player characters
 
-###### Leveling rules
+##### Leveling rules
 
-###### Talents
+##### Talents
 Talents are abilites of charachters. They can be passive - active all the time; and active - those, which need to be activated for usage. Active talents could require (or generate) mana for usage, they could have a cooldown. Talents could be unlocked during the leveling of the charachter or aquiring by wearing talent-containing item. Talents generally can do whatever - they have a script inside.
 
-##### Monsters
+#### Monsters
 
-###### Affixes
+##### Affixes
 
 Affixes are monster's talents
 
-#### Equipment
+### Equipment
 
 Equipment is lootable from monsters or craftable. Equipment's parameters are randomly generated in range of predefined templates.
 
@@ -59,10 +59,10 @@ Generated equipment parameters:
 
  * Character's parameters modification - can modify any stats
 
-#### Combat system
+### Combat system
 
 
-### Level Generation
+## Level Generation
 
 Procedural generation of levels. 
 
@@ -74,7 +74,7 @@ Procedural generation of levels.
  - Create exit from the level in the most far point of the level.
 
 
-#### Biotop
+### Biotop
 
 Biotop is a theme of level. It consists of set of tiles of the level, kinds of monsters player can encounter on that level, set of handmade level pieces and link onto archetype. Good examples of biotops could be:
  
@@ -82,21 +82,21 @@ Biotop is a theme of level. It consists of set of tiles of the level, kinds of m
  * Techno city
  * Dungeons of Hell
 
-#### Archetype
+### Archetype
 
 Archetype is a algorithm (or parameters for algoritm) of procedural generation of level.
 
  * Plain - non man-made looking plain with island-looking obstacles
  * Dungeon - man-made looking dungeon with straight lines of walls
 
-#### Handmade level pieces
+### Handmade level pieces
 
 Those are level pieces, handcrafted and associated with biotops. Good examples of such pieces could be:
 
  * DMV room with lines of people, DMV workers, bars
  * Throne room with throne, long red carpet, shields on the walls, guards.
 
-#### Set of tiles
+### Set of tiles
 
 Every tile have a parameters:
 
@@ -107,12 +107,47 @@ Every tile have a parameters:
 
 
 
-## Game Spec
+# Game Spec
 
-### Functional Spec
+## Functional Spec
+
+### Character classes
+
+#### Warrior
+
+##### Talents
+
+###### Cleave
+
+#### Mechanic 
+
+##### Talents
+
+### Equipment
 
 
-### Visual Spec
+### Vendors
+
+#### Stash
+
+#### Blacksmith
+
+#### Trader
+
+### Biotops
+
+#### Rogue cyberpunk city
+
+#### Sewers of cyberpunk city
+
+#### Nightwallian forest
+
+### Monsters
+
+### Monster's talents
+
+### Equipment
+
+## Visual Spec
 
 
-### Asset catalogue
