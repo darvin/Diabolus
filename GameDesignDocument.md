@@ -36,12 +36,28 @@ There is a system of Seasons - once per 4 month, players are able to create a fr
 ###### Leveling rules
 
 ###### Talents
+Talents are abilites of charachters. They can be passive - active all the time; and active - those, which need to be activated for usage. Active talents could require (or generate) mana for usage, they could have a cooldown. Talents could be unlocked during the leveling of the charachter or aquiring by wearing talent-containing item. Talents generally can do whatever - they have a script inside.
 
 ##### Monsters
 
 ###### Affixes
 
+Affixes are monster's talents
+
 #### Equipment
+
+Equipment is lootable from monsters or craftable. Equipment's parameters are randomly generated in range of predefined templates.
+
+Fixed equipment parameters:
+
+ * Name
+ * Visual representation
+ * Rarity (common, uncommon or legendary)
+ * Equipment's talent (legendary only)
+ 
+Generated equipment parameters:
+
+ * Character's parameters modification - can modify any stats
 
 #### Combat system
 
